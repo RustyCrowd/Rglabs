@@ -2298,7 +2298,7 @@ input[type=search]::-webkit-search-results-decoration {
     background: linear-gradient(133.72deg,#6a11cb 21.85%,#2575fc 104.32%);
     color: white;
     font-family: 'Poppins', sans-serif;
-    padding: 60px 0 0;
+    padding: 10px 0 0;
     position: relative
 }
 
