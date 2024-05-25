@@ -1686,7 +1686,17 @@ Contact Style
   font-size: 16px;
   font-weight: 400;
 }
+.confirm {
 
+  margin-top: 150px;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+ 
+}
+.confirm h1{
+  color: linear-gradient(133.72deg,#6a11cb 21.85%,#2575fc 104.32%);
+}
 /* 
 ---------------------------------------------
 Footer Style
