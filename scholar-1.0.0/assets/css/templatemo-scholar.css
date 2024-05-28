@@ -132,7 +132,6 @@ body {
 }
 
 .section {
-  padding-top: 30px;
   margin-top: 120px;
 }
 
@@ -1697,6 +1696,7 @@ Contact Style
 .confirm h1{
   color: linear-gradient(133.72deg,#6a11cb 21.85%,#2575fc 104.32%);
 }
+
 /* 
 ---------------------------------------------
 Footer Style
