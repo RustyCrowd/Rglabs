@@ -712,11 +712,11 @@ Banner Style
 */
 
 .main-banner {
-  background-image: url(../images/banner-bg\ \(1\).jpg);
+  background-image: url(/assets/images/banner.jpg);
   background-position: right bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 170px 0px 120px 0px;
+  padding: 120px 0px 40px 0px;
 }
 
 .main-banner .item-1 {
@@ -1459,8 +1459,6 @@ Events Style
   color: #fff;
   border-radius: 60px 0px 0px 60px;
 }
-
-
 /* 
 ---------------------------------------------
 Contact Style
@@ -1580,7 +1578,9 @@ Contact Style
 }
 
 .contact-us .contact-us-content::before {
-  background: url(../images/contact-dec-01.png);
+  background: url(/assets/images/banner.jpg);
+  background-repeat: no-repeat;
+  
   position: absolute;
   left: 50%;
   transform: translateX(-149px);
@@ -1593,7 +1593,6 @@ Contact Style
 }
 
 .contact-us .contact-us-content::after {
-  background: url(../images/contact-dec-02.png);
   position: absolute;
   right: 0;
   bottom: 0;
@@ -1709,8 +1708,8 @@ footer {
   background: -o-linear-gradient(316.28deg,#6a11cb 21.85%,#2575fc 104.32%);
   background: linear-gradient(133.72deg,#6a11cb 21.85%,#2575fc 104.32%);
   vertical-align: middle;
-  font-size: 15px;
-  padding: 100px;
+  font-size: 18px;
+  padding: 90px;
 }
 
 footer p {
@@ -1729,18 +1728,6 @@ footer p a:hover {
   opacity: 0.75;
 }
 
-footer::before {
-  background: url(../images/contact-dec-01.png);
-  position: absolute;
-  left: 30px;
-  transform: rotate(180deg);
-  opacity: 1;
-  bottom: 0;
-  width: 318px;
-  height: 119px;
-  content: '';
-  z-index: 2;
-}
 
 /* 
 ---------------------------------------------
