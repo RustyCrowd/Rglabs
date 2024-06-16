@@ -112,8 +112,7 @@ body {
 }
 
 ::selection {
-  background: -o-linear-gradient(316.28deg,#6a11cb 21.85%,#2575fc 104.32%);
-    background: linear-gradient(133.72deg,#6a11cb 21.85%,#2575fc 104.32%);
+ background-color: blue;
   color: #fff;
 }
 
